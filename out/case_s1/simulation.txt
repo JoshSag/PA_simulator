@@ -1,0 +1,26 @@
+[{'data': {'user_id': 'user_1'},
+  'operation': 'add_user'},
+
+ {'data': {'session_id': 'S1_Basic', 'user_id': 'user_1'},
+  'operation': 'set_session'},
+
+ {'data': {'logical_operations': [  ('s7', 's3', 's4', 's1'),
+                                    ('s2', 's8', 's5')],
+           'score': 10.0,
+           'user_id': 'user_1'},
+ 'operation': 'add_logical_operations'},
+
+ {'data': {'logical_operations': [  ('s3', 's9', 's6', 's4'),
+                                    ('s5', 's7', 's4', 's9', 's8')],
+           'score': 15.0,
+           'user_id': 'user_1'},
+ 'operation': 'add_logical_operations'},
+
+ {'data': {'logical_operations': [ ('s0', 's0', 's8', 's3')],
+           'score': 20.0,
+           'user_id': 'user_1'},
+ 'operation': 'add_logical_operations'},
+ 
+  {'data': {'text_size': 15000, 'user_id': 'user_1'},
+  'operation': 'generate_text'}
+  ]
